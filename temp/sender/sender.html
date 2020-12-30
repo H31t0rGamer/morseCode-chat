@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+ 		<title>Sender</title>
+		<meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	   <meta name="author" content="Heitor Moura Rosi">
+	   <style>
+		   *{margin:0;padding:0;box-sizing: border-box;}
+
+		   #point, #trace, #espaço, #delete {
+			   min-width: 24%;
+			   height: 100%;
+			   font-size: 30px;
+		   }
+
+		   html,body{
+			   height: 100vh;
+		   }
+	   </style>
+	</head>
+	<body>
+	   <button id="point">.</button>
+	   <button id="trace">-</button>
+	   <button id="espaço">Espaço</button>
+	   <button id="delete">Deletar</button>
+	   <script src="/socket.io/socket.io.js"></script>
+	   <script src="/sender/js"></script>
+	</body>
+</html>
